@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.header {
+  width: 100%;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  text-shadow: 2px 2px 1px rgb(56, 55, 55);
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.header h1 {
+  display: inline;
+  float: :left;
+  font-size: 60px;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  padding-left: 20px;
+}
+
+#nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+#nav ul {
+  list-style-type: none;
+}
+
+#nav ul li {
+  display: inline;
+  margin-left: 25px;
+}
+
+#nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+/* < --- CSS hero image --- > */
+
+#hero {
+    border:1px #000000
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(challenge/images/hero banner_.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.align
+
+.page-wrapper{
+
+}
+
+.page-section {
+    border:1px #000000;
+}
+
+#about {
+  border: 1px black;
+}
+
+#work {
+  border: 1px black;
+}
+
+ #contact {
+  border: 1px black;
+ }
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
