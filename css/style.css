@@ -70,31 +70,50 @@ body {
   right: 16px;
 }
 
-.about {
-  display: flex;
-  background-color: #000000;
+
+.About-me {
+  border: 2px teal;
 }
 
-.about > h2 {
-  color: #ffffff;
-  width: 25%;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+.profile {
+  border: 2px teal;
 }
 
-#about {
-  border: 1px black;
+.work {
+ border: 2px teal;
 }
 
-#work {
-  border: 1px black;
+.workportfolio {
+  border: 2px teal;
 }
 
- #contact {
-  border: 1px black;
- }
+.contactme {
+  border: 2px teal;
+}
+
+.contactinfo {
+  border: 2px teal;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 20% 60% 20%;
+  grid-template-areas: 
+    'about-me profile'
+    'work workportfolio'
+    'contactme' 'contactinfo';
+    grid-gap: 30px;
+    padding: 10px;
+}
+
+.section {
+  background-image: linear-gradient(
+    #33768a 70%,
+    black 30%,
+  );
+}
 
 h2,
 h3,
