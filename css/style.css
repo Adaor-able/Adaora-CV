@@ -70,49 +70,90 @@ body {
   right: 16px;
 }
 
-
-.About-me {
-  border: 2px teal;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
 }
 
-.profile {
-  border: 2px teal;
+.title-column {
+  border-right: teal 20px;
+  display: inline-block;
+  float: left;
+  width: 25%;
 }
 
-.work {
- border: 2px teal;
+.content-column {
+  display: inline-block;
+  float: left;
+  width: 75%;
+  
 }
 
-.workportfolio {
-  border: 2px teal;
+
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
 }
 
-.contactme {
-  border: 2px teal;
-}
-
-.contactinfo {
-  border: 2px teal;
-}
-
-.grid {
+#portfolioGrid {
+  margin: 0px 5%;
   display: grid;
-  width: 100%;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 20% 60% 20%;
-  grid-template-areas: 
-    'about-me profile'
-    'work workportfolio'
-    'contactme' 'contactinfo';
-    grid-gap: 30px;
-    padding: 10px;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "bookcases bedroom patio"
+  "couches couches patio"
+  "desks desks desks"
+  ;
 }
 
-.section {
-  background-image: linear-gradient(
-    #33768a 70%,
-    black 30%,
-  );
+#horiseon {
+  grid-area: horiseon;
+  background-image: url("../images/bookcases@2x.png");
+
+}
+#bootstrap {
+  grid-area: bootstrap;
+  background-image: url("../images/beds@2x.png");
+}
+
+#console {
+  grid-area: console;
+  background-image: url("../images/couch@2x.png");
+}
+
+#generator {
+  grid-area: generator;
+  background-image: url("../images/patio@2x.png");
+}
+
+#api {
+  grid-area: api;
+  background-image: url("../images/desks@2x.png");
+}
+
+.portfolioGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #FF6200;
 }
 
 h2,
