@@ -11,18 +11,16 @@
 
 <body>
   <!-- main logo / nav -->
-  <nav id="navBar">
-    <h1>ADAORA INYAMA</h1>
-    <div id="navigation">
-      <p>About Me</p>
-      <p>Work</p>
-      <p>Contat Me</p>
-      <p>CV</p>
-    </div>
-    <div class="face">
-      <img src="">
-    </div>
-  </nav>
+    <nav id="navBar"></nav>  
+      <h1>ADAORA INYAMA</h1>
+      <div id="navigation">
+        <a href="#about">ABOUT ME</a>
+        <a href="#work">WORK</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#CV">CV</a>
+        <img src="Images/Headshot transparent 150px.png">
+      </div>       
+    </nav>
 
   <!-- hero banner -->
   <figure class="hero">
@@ -30,18 +28,21 @@
   </figure>
 
   <main>
+
     <!-- about me container -->
-    <section class="row">
-        <div class="section-column">
-            <h2 class="section-header">About Me</h2>
-            <div class="section-body">
+    <section id="about" class="about-row">
+        <div class="section">
+          <figure class="about-card"></figure>
+            <h2 class="about-header">About Me</h2>
+            <div class="about-body">
               <p>Use these three properties to create a Flexbox row layout.</p>
             </div>
+          </figure>
         </div>    
     </section>
 
     <!-- portfolio container -->
-    </section>
+    </section id="work">
          <div class="subHeading">
              <h3>Work</h3>
          </div>
@@ -65,14 +66,23 @@
   </section>
 
     <!-- contact container-->
-    <section class="row">
-       <div class="section-column">
-         <h2 class="section-header">Contact Me</h2>
-         <div class="section-body">
-           <p>Use these three properties to create a Flexbox row layout.</p>
-        </div>
+    <section id="contact" class="contact-row">
+       <div class="contact">
+        <figure class="contact-card">
+         <h2 class="contact-header">Contact Me</h2>
+         <div class="contact-body">
+           <p>Use these three properties to create a Flexbox row layout.</p>  
+         </div>
+        </figure> 
       </div>  
+    <section>
+
+
+    <section id="CV" class="row justify-center">
+      <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:e995cc01-8001-45e8-bfe5-82b900c98031">Click Here to view Adaora's CV</a>
     </section>
+
+    
   </main>
 </body>
 
