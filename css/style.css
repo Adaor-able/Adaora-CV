@@ -107,8 +107,8 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
   "horiseon horiseon horiseon"
-  "bootstrap bootstrap"
-  "console generator api"
+  "bootstrap bootstrap generator"
+  "console api generator"
   ;
 }
 
