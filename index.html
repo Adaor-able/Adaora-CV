@@ -11,16 +11,27 @@
 
 <body>
   <!-- main logo / nav -->
-    <nav id="navBar"></nav>  
-      <h1>ADAORA INYAMA</h1>
-      <div id="navigation">
-        <a href="#about">ABOUT ME</a>
-        <a href="#work">WORK</a>
-        <a href="#contact">CONTACT</a>
-        <a href="#CV">CV</a>
-        <img src="Images/Headshot transparent 150px.png">
-      </div>       
+  <header class="header">
+    <img src="./Images/headshottransparent.png" alt="a picture of Adaora Inyama smiling" class="center">
+    <h1>ADAORA INYAMA</h1>
+    <nav class="nav">
+        <ul class="ul">
+            <li class="li">
+                <a id="a" href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#CV">CV</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
     </nav>
+  </header>
+   
 
   <!-- hero banner -->
   <figure class="hero">
@@ -31,19 +42,21 @@
 
     <!-- about me container -->
     <section id="about" class="about-row">
-        <div class="section">
+        <div class="about">
           <figure class="about-card"></figure>
             <h2 class="about-header">About Me</h2>
             <div class="about-body">
-              <p>Use these three properties to create a Flexbox row layout.</p>
+              <p>A gregarious and affable professional with a background in project management, administration, and 10 years of professional experience in project-focused, operational management roles. 
+                 Known as an accelerator who takes businesses, organisations, and enterprises to their next level though strategic project delivery and cutting-edge events. 
+                 A range of experience across the education, non-profit and professional services sectors, now in the project space within media and events on a consultancy basis.</p>
             </div>
           </figure>
         </div>    
     </section>
 
     <!-- portfolio container -->
-    </section id="work">
-         <div class="subHeading">
+    </section>
+         <div id="work" class="subHeading">
              <h3>Work</h3>
          </div>
 
@@ -65,6 +78,13 @@
     </div>
   </section>
 
+
+  <!-- CV container-->
+  <section id="CV">
+    <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:e995cc01-8001-45e8-bfe5-82b900c98031">Click Here to view Adaora's CV</a>
+  </section>
+
+
     <!-- contact container-->
     <section id="contact" class="contact-row">
        <div class="contact">
@@ -76,11 +96,6 @@
         </figure> 
       </div>  
     <section>
-
-
-    <section id="CV" class="row justify-center">
-      <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:e995cc01-8001-45e8-bfe5-82b900c98031">Click Here to view Adaora's CV</a>
-    </section>
 
     
   </main>
