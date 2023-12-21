@@ -6,99 +6,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Adaora Inyama // Web Developer</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header class="header">
-    <img src="./Images/headshottransparent.png" alt="a picture of Adaora Inyama smiling" class="center">
-    <h1>ADAORA INYAMA</h1>
-    <nav class="nav">
-        <ul class="ul">
-            <li class="li">
-                <a id="a" href="#about">About Me</a>
-            </li>
-            <li>
-                <a href="#work">Work</a>
-            </li>
-            <li>
-              <a href="#CV">CV</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+
+  <header>
+    <h1 class="site-title">ADAORA INYAMA</h1>
+    <nav>
+      <ul id="main-navigation">
+        <li><a class="link" href="#about">About Me</a></li>
+        <li><a class="link" href="#work">Work</a></li>
+        <li><a class="link" href="#contact">Contact Me</a></li>
+        <li><a class="link" href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:9aba9f65-35a4-4e3f-8b66-4b0234827323">Resume</a></li>
+      </ul>
     </nav>
   </header>
-   
 
   <!-- hero banner -->
-  <figure class="hero">
-    <h2 class="bottom-right">Web Developer // Project Manager</h2>
-  </figure>
+  <section class="hero-banner">
+    <div class="hero-caption">
+      <h2 class="hero-title">Web Developer // Project Manager</h2>
+    </div>
+  </section>
 
-  <main>
 
-    <!-- about me container -->
-    <section id="about" class="about-row">
-        <div class="about">
-          <figure class="about-card"></figure>
-            <h2 class="about-header">About Me</h2>
-            <div class="about-body">
-              <p>A gregarious and affable professional with a background in project management, administration, and 10 years of professional experience in project-focused, operational management roles. 
-                 Known as an accelerator who takes businesses, organisations, and enterprises to their next level though strategic project delivery and cutting-edge events. 
-                 A range of experience across the education, non-profit and professional services sectors, now in the project space within media and events on a consultancy basis.</p>
+    <main class="page-wrapper">
+      <!-- about me -->
+      <section class="page-section" id="about">
+        <h2 class="section-title">About <span class="section-title-second-word">Me</span></h2>
+        <div class="section-content">
+          <p>
+            A gregarious and affable professional with a background in project management, administration, and 10 years of professional experience in project-focused, operational management roles. Known as an accelerator who takes businesses, organisations, and enterprises to their next level though strategic project delivery and cutting-edge events. A range of experience across the education, non-profit and professional services sectors, now in the project space within media and events on a consultancy basis.          </p>
+          <br>
+          <p>
+            A range of experience across the education, non-profit and professional services sectors, now in the project space within media and events on a consultancy basis.          </p>
+          </p>
+        </div>
+      </section>
+  
+      <!-- portfolio container -->
+      <section class="page-section" id="work">
+        <h2 class="section-title">Work</h2>
+        <div class="section-content work-grid">
+          <a href="https://adaor-able.github.io/Horiseon-webpage/index.html" target="_blank" id="project-1" class="work-grid-item">
+            <div class="heading">
+              <h3 class="project-title">Horiseon Social Solutions SEO </h3>
+              <div class="technology">HTML / CSS</div>
             </div>
-          </figure>
-        </div>    
-    </section>
+          </a>
+          <a href="https://getbootstrap.com/docs/5.3/examples/jumbotron/" target="_blank" id="project-2" class="work-grid-item">
+            <div class="heading">
+              <h3 class="project-title">Bootstrap</h3>
+              <div class="technology">UX / Advanced CSS</div>
+            </div>
+          </a>
+          <a href="https://www.closebrothers.com/" target="_blank" id="project-3" class="work-grid-item">
+            <div class="heading">
+              <h3 class="project-title">Console Finances</h3>
+              <div class="technology">Fundamental Javascript</div>
+            </div>
+          </a>
+          <a href="https://dev.to/code_mystery/random-password-generator-using-javascript-6a" target="_blank" id="project-4" class="work-grid-item">
+            <div class="heading">
+              <h3 class="project-title">Password Generator</h3>
+              <div class="technology">Intermediate Javascript</div>
+            </div>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank" id="project-5" class="work-grid-item">
+            <div class="heading">
+              <h3 class="project-title">Web APIs</h3>
+              <div class="technology">OOP</div>
+            </div>
+          </a>
+        </div>
+      </section>
+  
+      <!-- contact -->
+      <section class="page-section contact" id="contact">
+        <h2 class="section-title">Contact <span class="section-title-second-word">Me</span></h2>
+        <div class="section-content">
+          <ul class="contact-list">
+            <li><a class="contact-item" href="#">+44 7914 251 963</a></li>
+            <li><a class="contact-item" href="mailto:admin@axlr8media.com">admin@axlr8media.com</a></li>
+            <li><a class="contact-item" href="https://github.com/Adaor-able" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
-    <!-- portfolio container -->
-    </section>
-         <div id="work" class="subHeading">
-             <h3>Work</h3>
-         </div>
-
-  <section id="portfolioGrid">
-    <div id="horiseon" class="portfolioGridArea">
-      <a href="https://adaor-able.github.io/Horiseon-webpage/index.html" class="heading" id="align">Horiseon Social Solutions - Accesible Webpage</a>
-    </div>
-    <div id="bootstrap" class="portfolioGridArea">
-      <diva href="https://uxplanet.org/ui-ux-design-a-case-for-bootstrap-5-42b83d467453" class="heading" id="align">UX/Bootstrap</a>
-    </div>
-    <div id="console" class="portfolioGridArea">
-      <a href="https://www.closebrothers.com/" class="heading" id="align">Console Finances</a>
-    </div>
-    <div id="generator" class="portfolioGridArea">
-      <a href="https://dev.to/code_mystery/random-password-generator-using-javascript-6a" class="heading" id="align">Password Generator</a>
-    </div>
-    <div id="api" class="portfolioGridArea">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/API" class="heading" id="align">Web APIs</div>
-    </div>
-  </section>
-
-
-  <!-- CV container-->
-  <section id="CV">
-    <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:e995cc01-8001-45e8-bfe5-82b900c98031">Click Here to view Adaora's CV</a>
-  </section>
-
-
-    <!-- contact container-->
-    <section id="contact" class="contact-row">
-       <div class="contact">
-        <figure class="contact-card">
-         <h2 class="contact-header">Contact Me</h2>
-         <div class="contact-body">
-           <p>Use these three properties to create a Flexbox row layout.</p>  
-         </div>
-        </figure> 
-      </div>  
-    <section>
-
-    
-  </main>
+    <footer>
+      <p>Made by Adaora Inyama</p>
+    </footer>
 </body>
-
 </html>
