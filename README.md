@@ -22,6 +22,9 @@ From a computer using mac OS: right-click anywhere on the page and choose “Ins
 
 ![alt text] (Images/Screenshot 2023-12-12 at 18.16.19.png)
 
+
+The deployed CV webpage can be viewed here: https://adaor-able.github.io/Adaora-CV/index.html
+
 ## License
 
 This project has an MIT License.
